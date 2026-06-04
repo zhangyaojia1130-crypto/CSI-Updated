@@ -6899,6 +6899,54 @@ tr:last-child td {
   flex-shrink: 0;
 }
 
+.domain-panel.grey-state .operations-dashboard .operations-kpi-value--danger,
+.domain-panel.grey-state .operations-dashboard .operations-kpi-value--warning,
+.domain-panel.grey-state .operations-dashboard .operations-task-name,
+.domain-panel.grey-state .operations-dashboard .ops-sync-state,
+.domain-panel.grey-state .operations-dashboard .ops-sync-state.synced,
+.domain-panel.grey-state .operations-dashboard .ops-sync-state.delayed,
+.domain-panel.grey-state .operations-dashboard .ops-sync-state.partial,
+.domain-panel.grey-state .operations-dashboard .ops-sync-state.error,
+.domain-panel.grey-state .operations-dashboard .ops-sync-arrow--both,
+.domain-panel.grey-state .operations-dashboard .ops-sync-arrow--right,
+.domain-panel.grey-state .operations-dashboard .ops-sync-arrow--left {
+  color: #a8b1bf;
+}
+
+.domain-panel.grey-state .operations-dashboard .status-dot,
+.domain-panel.grey-state .operations-dashboard .status-dot.healthy,
+.domain-panel.grey-state .operations-dashboard .status-dot.degraded,
+.domain-panel.grey-state .operations-dashboard .status-dot.active,
+.domain-panel.grey-state .operations-dashboard .status-dot.warning {
+  background: #c5cad3;
+}
+
+.domain-panel.grey-state .operations-dashboard .priority-pill.high,
+.domain-panel.grey-state .operations-dashboard .priority-pill.medium,
+.domain-panel.grey-state .operations-dashboard .priority-pill.critical,
+.domain-panel.grey-state .operations-dashboard .priority-pill.low,
+.domain-panel.grey-state .operations-dashboard .pill.success,
+.domain-panel.grey-state .operations-dashboard .pill.warning,
+.domain-panel.grey-state .operations-dashboard .pill.info {
+  color: #a8b1bf;
+  background: #eef1f5;
+}
+
+.domain-panel.grey-state .operations-dashboard .operations-filter select {
+  color: #a8b1bf;
+  background-color: #f3f5f8;
+}
+
+.domain-panel.grey-state .operations-dashboard .lifecycle-view-details-button {
+  color: #a8b1bf;
+  background: transparent;
+  border-color: #dfe6f1;
+}
+
+.domain-panel.grey-state .operations-dashboard .lifecycle-view-details-button:hover {
+  background: #eef1f5;
+}
+
 .operations-filter-bar {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
